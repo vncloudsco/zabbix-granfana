@@ -32,7 +32,7 @@ Here's the summary:
 To invoke zabbix server installation, execute the "zabbix-server" script with "init" parameter and follow the instructions.
 
 ```
-# git clone https://github.com/vncloudsco/zabbix-granfana && cd zabbix-granfana && bash scripts/zabbix-server init
+# git clone https://github.com/vncloudsco/zabbix-granfana && cd zabbix-granfana && bash scripts/zabbix-server.sh init
 ```
 
 You can find an complete example output at the end of the page.
