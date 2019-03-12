@@ -1075,11 +1075,11 @@ esac
 IPP="$(curl ifconfig.me)"
 
 echo "Thong Tin Dang Nhap Zabbix " >> /etc/motd
-echo "URL: $IPP:8443" >> /etc/motd
+echo "URL: https://$IPP:8443" >> /etc/motd
 echo " Username: Admin " >> /etc/motd
 echo " Password: zabbix " >> /etc/motd
 echo "Thong Tin Dang Nhap Grafana " >> /etc/motd
-echo "URL: $IPP:3000" >> /etc/motd
+echo "URL: https://$IPP:3000" >> /etc/motd
 echo " Username: admin " >>  /etc/motd
 echo " Password: zabbix " >> /etc/motd
 
