@@ -1084,10 +1084,11 @@ echo " Username: admin " >>  /etc/motd
 echo " Password: zabbix " >> /etc/motd
 
 echo "Thong Tin Dang Nhap Zabbix "
-echo "URL: $IPP:8443"
+echo "URL: https://$IPP:8443"
 echo " Username: Admin "
 echo " Password: zabbix "
 echo "Thong Tin Dang Nhap Grafana "
-echo "URL: $IPP:3000"
+echo "URL: https://$IPP:3000"
 echo " Username: admin "
 echo " Password: zabbix "
+read -p "Press enter to continue"
